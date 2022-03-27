@@ -17,10 +17,11 @@ public class Setup {
     private void setupBrowser(WebDriver browser)
     {
         browser.manage().deleteAllCookies();
-        //browser.manage().window().maximize();
+        browser.manage().window().maximize();
 
-        browser.manage().window().setSize(new Dimension(1100, 1100));
-        browser.manage().window().setPosition(new Point(1280,0));
+        //caracteristicas particulares para el pc del desarrollador
+        //browser.manage().window().setSize(new Dimension(1100, 1100));
+        //browser.manage().window().setPosition(new Point(1300,0));
 
     }
     private void setupUser(String name, WebDriver browser)

@@ -1,16 +1,16 @@
 package com.juanmaya.stepdefinitions.automationpractice.register;
 
 import com.juanmaya.stepdefinitions.automationpractice.Setup;
-import com.juanmaya.tasks.practiceform.OpenLandingPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static com.juanmaya.question.automationpractice.ContactUsForm.contactUsForm;
+
 import static com.juanmaya.question.automationpractice.RegisterForm.registerForm;
 import static com.juanmaya.tasks.automationpractice.OpenLandingPage.openLandingPage;
 import static com.juanmaya.tasks.automationpractice.registerform.BrowseToRegisterForm.browseToRegisterForm;
 import static com.juanmaya.tasks.automationpractice.registerform.FillFullyRegisterForm.fillFullyRegisterForm;
+import static com.juanmaya.tasks.automationpractice.registerform.FillRequiredFieldsOnlyRegisterForm.fillRequiredFieldsOnlyRegisterForm;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
@@ -69,5 +69,27 @@ public class RegisterFormStepDefinition extends Setup {
         );
 
     }
+
+    @When("se desplaza al formulario de registro y llena solo los campos requeridos")
+    public void seDesplazaAlFormularioDeRegistroYLlenaSoloLosCamposRequeridos() {
+        theActorInTheSpotlight().attemptsTo(
+                browseToRegisterForm()
+                        .withEmail(fakeUser.getEmail())
+        );
+        theActorInTheSpotlight().attemptsTo(
+                fillRequiredFieldsOnlyRegisterForm()
+                        .withFirstName(fakeUser.getFirstName())
+                        .withLastName(fakeUser.getLastName())
+                        .withEmail(fakeUser.getEmail())
+                        .withPassword(fakeUser.getPassword())
+                        .withAddress1(fakeUser.getAddress1())
+                        .withCity(fakeUser.getCity())
+                        .withState(fakeUser.getState())
+                        .withZip(fakeUser.getZip())
+                        .withCountry(fakeUser.getCountry())
+                        .andPhone(fakeUser.getPhone())
+        );
+    }
+
 
 }

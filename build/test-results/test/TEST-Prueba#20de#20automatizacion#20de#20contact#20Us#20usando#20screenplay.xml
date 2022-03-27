@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Prueba de automatizacion de contact Us usando screenplay" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-27T09:47:12" hostname="juan-Forward-Unto-Dawn" time="34.159">
+  <properties/>
+  <testcase name="enviar un mensaje al area de soporte con los campos requeridos" classname="Prueba de automatizacion de contact Us usando screenplay" time="13.874"/>
+  <testcase name="enviar un mensaje al area de soporte con todos los campos" classname="Prueba de automatizacion de contact Us usando screenplay" time="20.285"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 27, 2022 4:47:12 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 1371
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 4:47:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+mar 27, 2022 4:47:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 32050
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 4:47:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

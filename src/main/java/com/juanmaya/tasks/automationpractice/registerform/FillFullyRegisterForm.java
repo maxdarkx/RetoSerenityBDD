@@ -12,7 +12,7 @@ import net.serenitybdd.screenplay.conditions.Check;
 import java.util.Date;
 
 import static com.juanmaya.userinterface.automationpractice.contactform.ContactUs.CONTACT_EMAIL_ADDRESS;
-import static com.juanmaya.userinterface.automationpractice.contactform.ContactUs.SUBJECT_HEADING_SELECT;
+
 import static com.juanmaya.userinterface.automationpractice.registerform.Register.*;
 
 public class FillFullyRegisterForm implements Task {
@@ -158,11 +158,8 @@ public class FillFullyRegisterForm implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        /*actor.attemptsTo(
-                Scroll.to(STATE),
-                SelectFromOptions.byVisibleText(state).from(STATE)
-        );*/
-        actor.attemptsTo(
+         actor.attemptsTo(
+                Scroll.to(ADDRESS_ALIAS),
                 Check.whether(prefix.equals("1"))
                         .andIfSo(
                             Scroll.to(GENDER_MALE),
