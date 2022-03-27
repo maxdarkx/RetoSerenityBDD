@@ -29,7 +29,7 @@ public class ContactUs extends PageObject {
 
     public static final Target ATTACH_FILE = Target
             .the("choose file")
-            .located(xpath("//*[@id=\"uniform-fileUpload\"]/span[2]"));
+            .located(xpath("/html/body/div/div[2]/div/div[3]/div/form/fieldset/div[1]/div[1]/p[5]/div/input"));
 
     public static final Target MESSAGE = Target
             .the("message")

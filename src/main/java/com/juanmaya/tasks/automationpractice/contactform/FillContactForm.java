@@ -1,5 +1,6 @@
 package com.juanmaya.tasks.automationpractice.contactform;
 
+import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
@@ -27,7 +28,6 @@ private String message;
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-
         actor.attemptsTo(
                 Scroll.to(CONTACT_EMAIL_ADDRESS),
                 Enter.theValue(emailAdress).into(CONTACT_EMAIL_ADDRESS),
@@ -37,7 +37,6 @@ private String message;
                 Scroll.to(SUBMIT_MESSAGE),
                 Click.on(SUBMIT_MESSAGE)
         );
-
     }
 }
 

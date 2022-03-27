@@ -7,3 +7,8 @@ Feature: Prueba de automatizacion de contact Us usando screenplay
     Given Que el usuario se encuentra ubicado en la pagina inicial
     When El se desplaza al formulario de soporte y llena los datos requeridos
     Then Se envia un mensaje al area de soporte para verificar la funcionalidad
+
+  Scenario: enviar un mensaje al area de soporte con todos los campos
+    Given Que el usuario se encuentra ubicado en la pagina inicial
+    When El se desplaza al formulario de soporte y llena todos los campos
+    Then Se envia un mensaje al area de soporte para verificar la funcionalidad

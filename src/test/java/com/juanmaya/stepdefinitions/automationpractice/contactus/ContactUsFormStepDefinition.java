@@ -7,6 +7,7 @@ import io.cucumber.java.en.When;
 
 import static com.juanmaya.question.automationpractice.ContactUsForm.contactUsForm;
 import static com.juanmaya.tasks.automationpractice.contactform.FillContactForm.fillContactForm;
+import static com.juanmaya.tasks.automationpractice.contactform.FillFullyContactForm.fillFullyContactForm;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -19,7 +20,8 @@ public class ContactUsFormStepDefinition extends Setup {
     private static final String ACTOR_NAME = "juan";
     private static final String email = "max_darkoriginal@hotmail.com";
     private static final String testMessage = "Test message, do not answer";
-
+    private static final String fileToUpload = "/home/juan/Escritorio/QASofkaWorkspace/RetoSerenityScreenplay/icon_test.png";
+    private static final String orderReference = "00510";
 
 
 
@@ -52,4 +54,19 @@ public class ContactUsFormStepDefinition extends Setup {
         );
     }
 
+
+    @When("El se desplaza al formulario de soporte y llena todos los campos")
+    public void elSeDesplazaAlFormularioDeSoporteYLlenaTodosLosCampos() {
+        theActorInTheSpotlight().attemptsTo(
+                browseToContactForm()
+        );
+
+        theActorInTheSpotlight().attemptsTo(
+                fillFullyContactForm()
+                        .withOrderReference(orderReference)
+                        .withEmailAdress(email)
+                        .withMessage(testMessage)
+                        .andFileToUpload(fileToUpload)
+        );
+    }
 }

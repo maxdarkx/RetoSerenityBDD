@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Automation testing using screenplay pattern","type":"feature","href":"2756a6cdbb5fea36698bc5af2b5ee4c0d236343668c15994ce71feb6aa0059a3.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Automation testing using screenplay pattern","type":"feature","href":"2756a6cdbb5fea36698bc5af2b5ee4c0d236343668c15994ce71feb6aa0059a3.html","nodes":[],"selectable":false,"tags":["",""]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -193,7 +193,6 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="92bc8a56b65c3cec5dad243fb1522034e24ff30175ca6eb27bc1957c10a8cadb.html">Practiceform</a>
 
 
                 > <span class="truncate-40">Automation Testing Using Screenplay Pattern</span>
@@ -221,7 +220,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-03-2022 17:18</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -289,20 +288,10 @@ To learn about serenity BDD framework
                                                                 <table>
                                                                     <tr>
                                                                         <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="d472d6623d460c109e4b526cbfee4ccf33ceedbaf17a7e6e4a4be0eb38280c82.html"
-                                                                               title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                                            </a>
+                                                                            
+                                                                            
 
                                                                         
-                                                                        </td>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="d472d6623d460c109e4b526cbfee4ccf33ceedbaf17a7e6e4a4be0eb38280c82.html"
-                                                                               title="View test results">
-                                                                                <i class="fas fa-search-plus"></i>
-                                                                            </a>
                                                                         </td>
                                                                     </tr>
                                                                 </table>
@@ -315,15 +304,16 @@ To learn about serenity BDD framework
                                             <h3>Scenario details</h3>
 
                                                 <div class="scenario-docs card" id="26c0cf5990970a2ea7127435924ad2ca7b645ea913234913b0fe91a941f55904">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header undefined" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
-                                                                <a href="d472d6623d460c109e4b526cbfee4ccf33ceedbaf17a7e6e4a4be0eb38280c82.html" title="View test results">fill a student registration form using mandatory fields</a>
+                                                                <a href="" title="View test results">fill a student registration form using mandatory fields</a>
                                                             </span>
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                    <i class="fas fa-pause"
+                                                                       title="No test has been implemented yet"></i>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -350,7 +340,7 @@ To learn about serenity BDD framework
 <tr><th>firstName</th><th>lastName</th><th>gender</th><th>mobile</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>Juan</td><td>Maya</td><td>Male</td><td>3012905481</td><td><a href='d472d6623d460c109e4b526cbfee4ccf33ceedbaf17a7e6e4a4be0eb38280c82.html#beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>Juan</td><td>Maya</td><td>Male</td><td>3012905481</td><td> </td></tr>
 </tbody>
 </table></div>
 </p>
@@ -365,41 +355,7 @@ To learn about serenity BDD framework
                             <div id="results" class="tab-pane fade">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-4">
-
-                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                <div class="ct-chart ct-square"></div>
-                                            </div>
-                                            <script>
-
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                // as you saw in the previous example
-                                                var options = {
-                                                    width: 350,
-                                                    height: 300
-                                                };
-
-                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                    new Chartist.Pie('.ct-chart', {
-                                                        series: series,
-                                                        labels: labels,
-                                                    }, {
-                                                        donut: true,
-                                                        donutWidth: 60,
-                                                        donutSolid: true,
-                                                        startAngle: 270,
-                                                        showLabel: true
-                                                    }, options);
-                                                });
-
-                                            </script>
-                                        </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-12">
 
                                         <table class="table">
                                             <thead>
@@ -412,12 +368,11 @@ To learn about serenity BDD framework
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="b6ea9741e7788e0528cd856e253d396f83f5279d09791a2857229fc318fe0d6a.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -471,7 +426,7 @@ To learn about serenity BDD framework
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">0</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -493,11 +448,11 @@ To learn about serenity BDD framework
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>9s</td>
-                                                        <td>9ms</td>
-                                                        <td>8s</td>
-                                                        <td>8s</td>
-                                                        <td>9s</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -520,17 +475,17 @@ To learn about serenity BDD framework
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result SUCCESS">
+                                                <tr class="scenario-result UNDEFINED">
                                                     <td>
-                                                            <a href="d472d6623d460c109e4b526cbfee4ccf33ceedbaf17a7e6e4a4be0eb38280c82.html">fill a student registration form using mandatory fields</a>
+                                                            fill a student registration form using mandatory fields
                                                                (1 example)
                                                     </td>
                                                     <td>4</td>
                                                     <td> </td>
                                                     <td> </td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
+                                                            <i class="fas fa-pause"
+                                                               title="No test has been implemented yet"></i>
                                                     </td>
                                                 </tr>
                                                 </tbody>
