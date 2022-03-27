@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static com.juanmaya.userinterface.automationpractice.ContactUs.*;
+import static com.juanmaya.userinterface.automationpractice.contactform.ContactUs.*;
 
 public class FillFullyContactForm implements Task {
     private String emailAdress;

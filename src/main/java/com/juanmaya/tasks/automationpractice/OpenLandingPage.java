@@ -1,7 +1,7 @@
-package com.juanmaya.tasks.automationpractice.contactform;
+package com.juanmaya.tasks.automationpractice;
 
 
-import com.juanmaya.userinterface.automationpractice.ContactUsLandingPage;
+import com.juanmaya.userinterface.automationpractice.contactform.ContactUsLandingPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;

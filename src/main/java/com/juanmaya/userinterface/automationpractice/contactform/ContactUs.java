@@ -1,4 +1,4 @@
-package com.juanmaya.userinterface.automationpractice;
+package com.juanmaya.userinterface.automationpractice.contactform;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;

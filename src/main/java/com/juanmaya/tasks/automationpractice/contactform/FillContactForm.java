@@ -1,12 +1,11 @@
 package com.juanmaya.tasks.automationpractice.contactform;
 
-import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.*;
 
 
-import static com.juanmaya.userinterface.automationpractice.ContactUs.*;
+import static com.juanmaya.userinterface.automationpractice.contactform.ContactUs.*;
 
 public class FillContactForm implements Task {
 private String emailAdress;

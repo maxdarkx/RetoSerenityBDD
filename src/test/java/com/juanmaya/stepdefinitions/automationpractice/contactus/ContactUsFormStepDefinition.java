@@ -12,7 +12,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 import com.juanmaya.stepdefinitions.automationpractice.Setup;
-import static com.juanmaya.tasks.automationpractice.contactform.OpenLandingPage.openLandingPage;
+import static com.juanmaya.tasks.automationpractice.OpenLandingPage.openLandingPage;
 import static com.juanmaya.tasks.automationpractice.contactform.BrowseToContactForm.browseToContactForm;
 import static org.hamcrest.Matchers.equalTo;
 
