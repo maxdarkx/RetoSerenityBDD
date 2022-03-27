@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Login de usuario en la plataforma" skipped="0" tests="2" time="36.32" timestamp="2022-03-27 08:00:33"><testcase name="Loguear un usuario nuevo con todos los campos"/><testcase name="Loguin de usuario no posible por error en la contrasena"/></testsuite>

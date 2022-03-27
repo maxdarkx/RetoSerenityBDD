@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Registro de usuario en la plataforma","Registrar un usuario nuevo con todos los campos","SUCCESS","2022-03-27T04:47:47.319-05:00[America/Bogota]","0.0","12.55"
-"Registro de usuario en la plataforma","Registrar un usuario nuevo solo con los campos requeridos","SUCCESS","2022-03-27T04:47:59.993-05:00[America/Bogota]","0.0","9.88"

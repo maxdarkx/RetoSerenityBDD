@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Registro de usuario en la plataforma" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-27T09:47:47" hostname="juan-Forward-Unto-Dawn" time="22.679">
+<testsuite name="Registro de usuario en la plataforma" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-27T13:01:10" hostname="FORWARD-UNTO-DA" time="32.908">
   <properties/>
-  <testcase name="Registrar un usuario nuevo con todos los campos" classname="Registro de usuario en la plataforma" time="12.677"/>
-  <testcase name="Registrar un usuario nuevo solo con los campos requeridos" classname="Registro de usuario en la plataforma" time="10.002"/>
+  <testcase name="Registrar un usuario nuevo con todos los campos" classname="Registro de usuario en la plataforma" time="19.466"/>
+  <testcase name="Registrar un usuario nuevo solo con los campos requeridos" classname="Registro de usuario en la plataforma" time="13.442"/>
   <system-out><![CDATA[test
 test
 ]]></system-out>
-  <system-err><![CDATA[mar 27, 2022 4:47:48 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[mar 27, 2022 8:01:11 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 31472
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 43100
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar 27, 2022 4:47:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+mar 27, 2022 8:01:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-mar 27, 2022 4:48:00 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+mar 27, 2022 8:01:30 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 32603
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 12909
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-mar 27, 2022 4:48:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+mar 27, 2022 8:01:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

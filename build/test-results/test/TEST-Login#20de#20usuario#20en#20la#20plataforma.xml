@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login de usuario en la plataforma" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-27T13:00:33" hostname="FORWARD-UNTO-DA" time="37.634">
+  <properties/>
+  <testcase name="Loguear un usuario nuevo con todos los campos" classname="Login de usuario en la plataforma" time="20.226"/>
+  <testcase name="Loguin de usuario no posible por error en la contrasena" classname="Login de usuario en la plataforma" time="17.408"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 27, 2022 8:00:33 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 16213
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 8:00:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+mar 27, 2022 8:00:53 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 34909
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 27, 2022 8:00:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

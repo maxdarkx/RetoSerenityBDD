@@ -20,7 +20,7 @@ public class ContactUsFormStepDefinition extends Setup {
     private static final String ACTOR_NAME = "juan";
     private static final String email = "max_darkoriginal@hotmail.com";
     private static final String testMessage = "Test message, do not answer";
-    private static final String fileToUpload = "/home/juan/Escritorio/QASofkaWorkspace/RetoSerenityScreenplay/icon_test.png";
+    private static final String fileToUpload= "icon_test.png";
     private static final String orderReference = "00510";
 
 
